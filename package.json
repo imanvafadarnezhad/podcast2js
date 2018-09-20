@@ -1,0 +1,30 @@
+{
+  "name": "podcast2js",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "author": "Iman Vafadarnezhad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanvafadarnezhad/podcast2js.git"
+  },
+  "keywords": [
+    "podcast2js",
+    "podcast",
+    "parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/imanvafadarnezhad/podcast2js/issues"
+  },
+  "homepage": "https://github.com/imanvafadarnezhad/podcast2js#readme",
+  "description": "A library to convert a podcast RSS file to JSON object",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
