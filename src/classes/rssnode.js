@@ -1,4 +1,4 @@
-import { ChannelNode } from './channelnode';
+import ChannelNode from './channelnode';
 
 export default class RSSNode {
   constructor() {
